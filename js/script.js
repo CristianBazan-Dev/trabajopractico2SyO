@@ -90,6 +90,8 @@ const renderInfo = (id, name) => {
     modalContainer.classList.toggle("active");
     modal.classList.toggle("active");
     svgPJ.classList.toggle("active");
+    window.scrollTo(0, 0);
+
 
     steps.filter((step) => {
       if (step.id == name) {
