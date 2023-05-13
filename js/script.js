@@ -140,3 +140,9 @@ const nolan = document.querySelector('#nolanImg')
 nolan.addEventListener('mouseover', () => {
   alert("¡Auch! That hurts. ")
 })
+
+const input = document.querySelector('#qualInput')
+input.addEventListener('keydown', (e) => {
+  alert("¡Gracias!")
+  window.location.reload()
+})
