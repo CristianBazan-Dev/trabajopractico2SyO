@@ -128,3 +128,4 @@ renderInfo(branch5, "etapa5");
 renderInfo(branch6, "etapa6");
 renderInfo(branchAnalysis2, "etapa2");
 renderInfo(branchAnalysis1, "etapa1");
+renderInfo(knowMore, "nolanInfo")
