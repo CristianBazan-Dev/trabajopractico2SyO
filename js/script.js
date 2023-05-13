@@ -131,3 +131,12 @@ renderInfo(branch6, "etapa6");
 renderInfo(branchAnalysis2, "etapa2");
 renderInfo(branchAnalysis1, "etapa1");
 renderInfo(knowMore, "nolanInfo")
+
+
+// Nolan meme 
+
+const nolan = document.querySelector('#nolanImg')
+
+nolan.addEventListener('mouseover', () => {
+  alert("¡Auch! That hurts. ")
+})
